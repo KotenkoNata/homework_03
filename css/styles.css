@@ -1,0 +1,223 @@
+/*-- Шрифты--*/
+
+/*font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+
+/*-- Палитра--*/
+
+/*-- основной цвет #212121--*/
+/*-- вторичный цвет #757575--*/
+/*--белый цвет #FFFFFF--*/
+/*---акцент #2196F3--*/
+/*--цвет контактов в футере rgba(255, 255, 255, 0.6) ---*/
+/* ----основной цвет фона #FFFFFF---*/
+/* ----вторичный цвет фона #F5F4FA---*/
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  outline: 1px solid blue;
+}
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --most-view-text-color: #ffffff;
+  --accent-color: #2196f3;
+  --color-with-transperency: rgba(255, 255, 255, 0.6);
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #f5f4fa;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: var(--primary-bg-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.list {
+  list-style: none;
+}
+/* ----Лого---*/
+.logo {
+  color: var(--title-text-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.logo:hover,
+logo:focus {
+  color: var(--accent-color);
+}
+.logo-accent {
+  color: var(--accent-color);
+}
+/* ----Навигация сайта---*/
+.site-nav a {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.site-nav a:hover,
+site-nav a:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+/* ----Контакты---*/
+.header-contact {
+  font-style: normal;
+  font-weight: 500;
+}
+.header-contact a {
+  color: var(--primary-text-color);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  line-height: 1.14;
+}
+.header-contact a:hover,
+header-contact a:focus,
+.footer-contact a:hover,
+footer-contact a:focus {
+  color: var(--accent-color);
+}
+
+.footer-contact a {
+  text-decoration: none;
+  font-style: normal;
+  color: var(--color-with-transperency);
+  background-color: var(--secondary-bg-color);
+}
+.adress {
+  font-weight: 400;
+  color: var(--most-view-text-color);
+  background-color: var(--secondary-bg-color);
+  font-style: normal;
+}
+
+b {
+  font-weight: 700;
+  line-height: 1.14;
+  color: var(--most-view-text-color);
+  background-color: var(--secondary-bg-color);
+  text-transform: uppercase;
+}
+
+/* ----Герой---*/
+
+.hero-title {
+  color: var(--most-view-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background: var(--secondary-bg-color);
+  text-transform: uppercase;
+}
+
+/* ----Секции---*/
+.section-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+/* ----Наши преимущества---*/
+
+.section-title,
+.item-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+}
+
+.item-title {
+  line-height: 1.14;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+/* ----Чем мы занимаемся---*/
+.details {
+  color: var(--most-view-text-color);
+  background-color: var(--secondary-bg-color);
+}
+/* ----Наша команда---*/
+.team {
+  background-color: var(--secondary-bg-color);
+}
+.element-title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.description {
+  line-height: 1.19;
+}
+/* ----Портфолио--Наши работы---*/
+.gallery a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.gallery h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+.gallery .lead {
+  font-size: 16px;
+  line-height: 1.87;
+}
+.gallery .excerpt {
+  font-size: 18px;
+  line-height: 1.56;
+}
+/* ----Кнопки---*/
+.button {
+  color: var(--title-text-color);
+  background-color: var(--primary-bg-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+.button.primary {
+  background-color: var(--accent-color);
+  color: var(--primary-bg-color);
+  text-decoration: none;
+}
+.filtr-button {
+  background-color: var(--secondary-bg-color);
+  color: var(--title-text-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+button:hover,
+button:focus {
+  color: var(--most-view-text-color);
+  background-color: var(--accent-color);
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
