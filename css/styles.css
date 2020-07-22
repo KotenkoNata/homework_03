@@ -12,10 +12,10 @@ font-family: 'Roboto', sans-serif;*/
 /*--цвет контактов в футере rgba(255, 255, 255, 0.6) ---*/
 /* ----основной цвет фона #FFFFFF---*/
 /* ----вторичный цвет фона #F5F4FA---*/
+
 *,
 *:before,
 *:after {
-  box-sizing: border-box;
   outline: 1px solid blue;
 }
 
@@ -40,6 +40,8 @@ body {
 }
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 /* ----Лого---*/
 .logo {
@@ -113,16 +115,24 @@ b {
 }
 
 /* ----Герой---*/
+.hero {
+  text-align: center;
+}
 
 .hero-title {
   color: var(--most-view-text-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   background: var(--secondary-bg-color);
   text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.hero-title + a {
+  align-items: center;
+  margin-bottom: 200px;
 }
 
 /* ----Секции---*/
@@ -138,12 +148,20 @@ b {
 .item-title {
   color: var(--title-text-color);
   font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .item-title {
   line-height: 1.14;
   font-size: 14px;
   text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.accurate {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* ----Чем мы занимаемся---*/
@@ -154,15 +172,21 @@ b {
 /* ----Наша команда---*/
 .team {
   background-color: var(--secondary-bg-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .element-title {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .description {
   line-height: 1.19;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 /* ----Портфолио--Наши работы---*/
 .gallery a {
@@ -194,11 +218,16 @@ b {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+  border-radius: 4px;
+  text-align: center;
+  display: inline-block;
 }
 .button.primary {
   background-color: var(--accent-color);
   color: var(--primary-bg-color);
   text-decoration: none;
+  padding: 10px 32px;
+  min-width: 200px;
 }
 .filtr-button {
   background-color: var(--secondary-bg-color);
@@ -208,6 +237,9 @@ b {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
+  padding: 6px 22px;
+  border-radius: 4px;
+  text-align: center;
 }
 button:hover,
 button:focus {
@@ -217,7 +249,8 @@ button:focus {
 .container {
   margin-right: auto;
   margin-left: auto;
-  width: 1200px;
+  width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
+  background-color: aquamarine;
 }
