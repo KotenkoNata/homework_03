@@ -173,7 +173,6 @@ b {
 .team {
   background-color: var(--secondary-bg-color);
   padding-top: 94px;
-  padding-bottom: 94px;
 }
 .element-title {
   color: var(--title-text-color);
@@ -252,5 +251,13 @@ button:focus {
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
-  background-color: aquamarine;
+  padding-bottom: 94px;
+}
+.header,
+.footer {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
