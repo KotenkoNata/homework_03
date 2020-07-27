@@ -127,7 +127,8 @@ footer-contact a:focus {
   color: var(--color-with-transperency);
   background-color: var(--secondary-bg-color);
 }
-.adress {
+
+.footer-contact .adress {
   font-weight: 400;
   color: var(--most-view-text-color);
   background-color: var(--secondary-bg-color);
@@ -168,16 +169,25 @@ b {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 /* ----Наши преимущества---*/
-
+.advantages {
+  padding-top: 94px;
+}
 .section-title,
 .item-title {
   color: var(--title-text-color);
   font-weight: 700;
   margin-top: 0;
-  margin-bottom: 0;
+}
+
+.advantages-item > .item-title {
+  margin-top: 30px;
+}
+.advantages-item img {
+  align-self: ;
 }
 
 .item-title {
@@ -186,7 +196,9 @@ b {
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-
+.what-doing-list > .what-doing-item h3 {
+  text-align: center;
+}
 .accurate {
   margin-top: 0;
   margin-bottom: 0;
@@ -202,10 +214,11 @@ b {
 .advantages-item:nth-child(4n) {
   margin-right: 0;
 }
+
 /* ----Чем мы занимаемся---*/
 .details {
   color: var(--most-view-text-color);
-  background-color: var(--secondary-bg-color);
+  background-color: rgba(47, 48, 58, 0.8);
 }
 .what-doing-item {
   width: calc((100% - 60px) / 3);
@@ -214,6 +227,7 @@ b {
 .what-doing-item:nth-child(3n) {
   margin-right: 0;
 }
+
 /* ----Наша команда---*/
 .team {
   background-color: var(--secondary-bg-color);
@@ -224,23 +238,52 @@ b {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .description {
   line-height: 1.19;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 16px;
 }
 .members {
   width: calc((100% - 90px) / 4);
   margin-right: 30px;
 }
+.members-list > .members h3,
+p {
+  text-align: center;
+}
 .members:nth-child(4n) {
   margin-right: o;
 }
-/* ----Наши клиенты---*/
 
+.social-list {
+  display: flex;
+  align-items: center;
+}
+.social-item:first-of-type {
+  margin-left: 32px;
+}
+
+.social-item {
+  width: calc((100% - 94px) / 4);
+  margin-right: 10px;
+}
+.social-item:nth-child(4n) {
+  margin-right: 32;
+}
+.social-item a {
+  display: block;
+  padding: 12px;
+}
+.social-item img {
+}
+
+/* ----Наши клиенты---*/
+.clients {
+  margin-top: 94px;
+}
 /* ----Портфолио--Наши работы---*/
 .gallery a {
   text-decoration: none;
