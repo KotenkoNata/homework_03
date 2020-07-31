@@ -74,7 +74,9 @@
           <!--скрытый заголовок-->
           <ul class="list advantages-list">
             <li class="advantages-item">
-              <img src="./images/section1/antenna.svg" alt="Антена" />
+              <div class="flexbox advantages-logo">
+                <img src="./images/section1/antenna.svg" alt="Антена" />
+              </div>
               <h3 class="item-title">Внимание к деталям</h3>
               <p class="advantages-description">
                 Идейные соображения, а также начало повседневной работы по
@@ -82,7 +84,9 @@
               </p>
             </li>
             <li class="advantages-item">
-              <img src="./images/section1/clock.svg" alt="Часы" />
+              <div class="flexbox advantages-logo">
+                <img src="./images/section1/clock.svg" alt="Часы" />
+              </div>
               <h3 class="item-title">Пунктуальность</h3>
               <p class="advantages-description">
                 Задача организации, в особенности же рамки и место обучения
@@ -90,7 +94,9 @@
               </p>
             </li>
             <li class="advantages-item">
-              <img src="./images/section1/diagram.svg" alt="Диаграмма" />
+              <div class="flexbox advantages-logo">
+                <img src="./images/section1/diagram.svg" alt="Диаграмма" />
+              </div>
               <h3 class="item-title">Планирование</h3>
               <p class="advantages-description">
                 Равным образом консультация с широким активом в значительной
@@ -98,7 +104,9 @@
               </p>
             </li>
             <li class="advantages-item">
-              <img src="./images/section1/astronaut.svg" alt="Астронавт" />
+              <div class="flexbox advantages-logo">
+                <img src="./images/section1/astronaut.svg" alt="Астронавт" />
+              </div>
               <h3 class="item-title">Современные технологии</h3>
               <p class="advantages-description">
                 Значимость этих проблем настолько очевидна, что реализация
@@ -108,7 +116,7 @@
           </ul>
         </div>
       </section>
-      <section class="section">
+      <section class="section what-doing">
         <div class="container">
           <!-- Вторая секция - чем мы занимаемся-->
           <h2 class="section-title">Чем мы занимаемся</h2>
@@ -376,48 +384,48 @@
           <!--Четвертая секция - постоянные клиенты-->
           <h2 class="section-title">Постоянные клиенты</h2>
           <ul class="list flexbox clients-list">
-            <li>
-              <a href="">
+            <li class="clients-logo">
+              <a class="flexbox clients-item" href="">
                 <img
                   src="./images/section4/logo1.svg"
                   alt="Логотип компании YA&CO"
                 />
               </a>
             </li>
-            <li>
-              <a href="">
+            <li class="clients-logo">
+              <a class="flexbox clients-item" href="">
                 <img
                   src="./images/section4/logo2.svg"
                   alt="Логотип компании Tagline here"
                 />
               </a>
             </li>
-            <li>
-              <a href="">
+            <li class="clients-logo">
+              <a class="flexbox clients-item" href="">
                 <img
                   src="./images/section4/logo3.svg"
                   alt="Логотип компании Company"
                 />
               </a>
             </li>
-            <li>
-              <a href="">
+            <li class="clients-logo">
+              <a class="flexbox clients-item" href="">
                 <img
                   src="./images/section4/logo4.svg"
                   alt="Логотип компании Foster peters"
                 />
               </a>
             </li>
-            <li>
-              <a href="">
+            <li class="clients-logo">
+              <a class="flexbox clients-item" href="">
                 <img
                   src="./images/section4/logo5.svg"
                   alt="Логотип компании Brand"
                 />
               </a>
             </li>
-            <li>
-              <a href="">
+            <li class="clients-logo">
+              <a class="flexbox clients-item" href="">
                 <img
                   src="./images/section4/logo6.svg"
                   alt="Логотип компании TagLine"
@@ -432,7 +440,7 @@
       <!-- Футер -->
       <div class="footer flexbox">
         <div class="first-block">
-          <a href="/" class="logo">
+          <a href="/" class="footer-logo">
             <span class="logo-accent">Web</span> Studio
           </a>
           <address>
@@ -455,13 +463,13 @@
           </b>
           <ul class="list footer-social-list flexbox">
             <li class="footer-social-item">
-              <a
-                href="Instagram"
-                aria-label="Ссылка на Instagram"
-                width="20"
-                height="20"
-              >
-                <img src="./images/instagram.svg" alt="Instagram" />
+              <a href="Instagram" aria-label="Ссылка на Instagram">
+                <img
+                  src="./images/instagram.svg"
+                  alt="Instagram"
+                  width="20"
+                  height="20"
+                />
               </a>
             </li>
             <li class="footer-social-item">
@@ -500,7 +508,7 @@
           <b>
             Подпишитесь на рассылку
           </b>
-          <button class="button primary">Подписаться</button>
+          <button class="button primary footer-button">Подписаться</button>
         </div>
       </div>
     </footer>
