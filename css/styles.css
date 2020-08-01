@@ -310,6 +310,7 @@ b {
 .members {
   width: calc((100% - 90px) / 4);
   margin-right: 30px;
+  background-color: var(--primary-bg-color);
 }
 .members-list > .members h3,
 p {
